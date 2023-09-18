@@ -1,0 +1,44 @@
+{
+    "alias": {
+        "java8": "D:\\Programs\\Develop\\jre1.8.0_351\\bin\\java.exe",
+        "java11": "D:\\Programs\\Develop\\jdk-11.0.13\\bin\\java.exe",
+        "java17": "D:\\Programs\\Develop\\jdk-17.0.7\\bin\\java.exe"
+    },
+    "tools" : {
+        "综合工具": [
+            {
+                "name": "burpsuite_pro_2023",
+                "wd": "E:\\powerful\\burpsuite_pro_v2023_5_1",
+                "cmd": "java17",
+                "param": "-javaagent:burploader_v2022.jar -jar burpsuite_pro_v2023.5.1.jar"
+            }
+        ],
+        "漏洞利用": [
+            {
+                "name": "shiro_attack",
+                "wd": "E:\\exploit\\shiro\\shiro_attack_2.2",
+                "cmd": "java8",
+                "param": "-jar shiro_attack-2.2.jar"
+            }
+        ],
+        "基本工具": [
+            {
+                "name": "Cmder",
+                "wd": "",
+                "cmd": "D:\\Programs\\Develop\\ConEmu\\ConEmu64.exe",
+                "param": ""
+            },
+            {
+                "name": "FirefoxPortable",
+                "wd": "E:\\other\\FirefoxPortable",
+                "cmd": "FirefoxPortable.exe",
+                "param": ""
+            }
+        ]
+    },
+    "window": {
+        "row_limit": 5,
+        "width": 400,
+        "height": 300
+    }
+}
